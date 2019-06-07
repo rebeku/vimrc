@@ -11,6 +11,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
+Plug 'justinmk/vim-sneak'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 :set number
