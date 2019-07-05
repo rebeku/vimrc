@@ -12,7 +12,9 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
 Plug 'justinmk/vim-sneak'
+Plug 'jiangmiao/auto-pairs'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 :set number
 :colorscheme nofrils-dark
+let g:go_fmt_command = "goimports"
