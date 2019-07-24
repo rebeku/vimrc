@@ -17,4 +17,6 @@ Plug 'jiangmiao/auto-pairs'
 call plug#end()
 :set number
 :colorscheme nofrils-dark
+:set hlsearch
+hi Search cterm=NONE ctermfg=black ctermbg=yellow
 let g:go_fmt_command = "goimports"
